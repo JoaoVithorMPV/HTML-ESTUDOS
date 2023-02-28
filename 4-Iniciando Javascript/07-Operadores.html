@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>07-JavaCript</title>
+</head>
+<body>
+
+	<script>
+		var name = 'João Vitor'
+
+		//arithmetics
+		var totalSum= 5 + 5
+		var totalSub= 8 - 5
+		var totalMult= 2 * 2
+		var totalDiv= 4 / 2 //%, ++, --
+
+		totalSum += 4 //soma com a resposta anterior é como se fosse +4 
+
+		console.log(totalSum, totalSub, totalMult, totalDiv)
+
+		//Comparision 
+		var a = 50
+		var b = 600
+
+		var c = a == b // Três símbolos de '=' validará além de se os valores são iguias se eles também são do mesmo tipo ex: inteiro, string...
+
+		console.log(c)
+		var d = '50'
+		var e = 50
+
+		var f = d !== e // o símbolo da exclamação validará se os resultados são diferentes, caso sejam a resposta será 'true'. o '==' levará em consideração o tipo também 
+
+		console.log(f)
+
+		var g = '50'
+		var h = 50
+
+		var i = g >= h // o símbolo '=' nãp poder vir depois da primeira palavra 
+
+		console.log(i)
+
+		//logical
+		//&& = and
+		//|| = or
+		//! - not
+		var l = !(a > totalSum) || (b < totalSum)
+
+		console.log( (50 > 10 ), l)
+	</script>
+
+</body>
+</html>

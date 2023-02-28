@@ -1,0 +1,33 @@
+#textshadow1{
+    text-shadow: 1px 1px;
+}
+
+#textshadow2{
+    color: white;
+    text-shadow: 1px 1px 5px blueviolet;
+}
+
+#textshadow3{
+    text-shadow: 1px 1px 5px blueviolet, 1px 1px 1px orangered;
+}
+
+#textshadow4{
+    text-shadow: 1px 1px 5px blueviolet, 1px 1px 1px orangered;
+}
+
+div.card1{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 1px rgba(0, 0, 0, 0.19);
+}
+div.header1{
+    background-color: purple;
+    color: white;
+    padding: 10px;
+    font-size: 30px;
+}
+div.container{
+    padding: 5px;
+}
+
+div.card2{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 6px 20px 1px rgba(0, 0, 0, 0.19);
+}

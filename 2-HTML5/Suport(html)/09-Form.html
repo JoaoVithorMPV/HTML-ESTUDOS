@@ -1,0 +1,54 @@
+</head>
+<body>
+	<header>
+		<h1>HTML5 Inpu Types</h1>
+	</header>
+
+	<section>
+		<form>
+			<div class="form-group">
+				<label>Color</label>
+				<input type="Color">
+			</div>
+
+			<div class="form-group">
+				<label>date</label>
+				<input type="date">
+			</div>
+
+			<div class="form-group">
+				<label>dateTime-Local</label>
+				<input type="dateTime-local">
+			</div>
+
+			<div class="form-group">
+				<label>Email</label>
+				<input type="Email">
+			</div>
+
+			<div class="form-group">
+				<label>Month</label>
+				<input type="Month">
+			</div>
+
+			<div class="form-group">
+				<label>Idade</label>
+				<input type="Number" min="0" max="120" step="10">
+			</div>
+
+			<div class="form-group">
+				<label>Rank</label>
+				<input type="text" id="Textinput">
+				<input type="Range" min="1000" max="5000" step="500" onchange="updadetextinput(this.value);">
+				<script>
+					function updatetextinput(num){
+						document.getElementById("textinput").value = num;
+					}
+				</script>
+			</div>
+
+			<button>Enviar</button>
+		</form>
+	</section>
+</body>
+</html>

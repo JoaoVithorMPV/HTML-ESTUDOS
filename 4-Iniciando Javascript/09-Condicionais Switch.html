@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>09-JavaCript</title>
+</head>
+<body>
+
+	<script>
+		var num1 = prompt ('Number1 :')
+		var num2 = prompt ('Number2 :')
+		var op = prompt ('Operation :')
+
+		num1 = parseFloat(num1)
+		num2 = parseFloat(num2)
+
+		switch(op){
+			case '+':
+				console.log(num1 + num2)
+			break;
+			case '-':
+				console.log(num1 - num2)
+			break;
+			case '*':
+				console.log(num1 * num2)
+			break;
+			case '/':
+				console.log(num1 / num2)
+			break;
+			default:
+				console.error('erro')
+		}
+	</script>
+
+</body>
+</html>

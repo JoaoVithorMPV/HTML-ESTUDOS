@@ -1,0 +1,428 @@
+✹✹✹✹✹✹✹✹✹✹✹✹✹✹✹✹✹✹✹✹✹✹✹✹✹✹✹✹✹✹✹✹
+✹Comandos e Informações "HTML Básico"✹
+✹✹✹✹✹✹✹✹✹✹✹✹✹✹✹✹✹✹✹✹✹✹✹✹✹✹✹✹✹✹✹✹
+
+✦Índice das Informações✦
+▷ Tags filhas e pai (3)
+▷ Atributos (11)
+▷ Tag: <thead></thead> e <tbody></tbody> (14)
+▷ Propriedades (16)
+▷ ; dentro das PROPRIEDADES (18)
+▷ 10px (20)
+▷ A formatação instruida para a tag pai (21)
+▷ Cor do link (24)
+▷ ./ (25)
+▷ Elemento é igual a tag (26)
+▷ Imagem com link (31)
+
+‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣
+
+✦Índice das Tags✦
+▷ Tag: <title>x</title> (2)
+▷ Tag: <p>x</p> (4)
+▷ Tag: <br/> (5)
+▷ Tags: <h1>x</h1>, etc... (6)
+▷ Tag: <center>x</center> (7)
+▷ Tags: <ul></ul> + <li>x</li> (8)
+▷ Tags: <ol></ol> + <li>x</li> (9)
+▷ Tags: <table></table> + <tr></tr> + <td>x</tr> (10)
+▷ Tag: <thead></thead> + <th>x</th> (13)
+▷ Tag: <thead></thead> e <tbody></tbody> (14)
+▷ Tag: <a>x</a> +  Atributo: href="x" (22)
+▷ Tag: <img/> + Atributo: src="x" + link da imagem (27)
+▷ Tag: <img/> + Atributo: src="x" + ./img/ (28)
+▷ Tag: <form></form> (32)
+▷ Tag: <input/> (33)
+▷ Tag: <label></label> (35)
+▷ Tag: <select></select> + <option>x</option> (37)
+
+‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣‣
+
+✦Índice das Atributos e Propriedades✦
+▷ Atributo: border="x" (12)
+▷ Atributo: bgcolor="x" (15)
+▷ Atributo: style="x" (17)
+▷ Propriedade: font-size (19)
+▷ Atributo: target="x" (23)
+▷ Atributo: Width="x" (29)
+▷ Atributo: height="x" (30)
+▷ Atributo: type="x" + Suas propriedades (34)
+▷ Atributo: action"x" (37)
+▷ Atributo: value"x" (38)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+
+► Aula: Primeiro exemplo de HTML
+
+#- Estrutura básica do HTML 
+[<html>
+	<head>
+		<title></title>
+	</head>
+	<body>
+	</body>
+</html>]
+
+1- Arquivo.html [O ".html" informa ao programa que o conteúdo se trata 
+de um arquivo HTML, isso se faz necessario para que o programa entenda 
+qual tipo de linguagem ele deve interpretar]
+
+2- Tag: <title>x</title> [Tem como finalidade adicionar um título 
+a guia do navegador]
+
+3- *Tags filhas e pai [As tags PAI são aquelas que anteveem as tags 
+filhas, em outras palavras as tags que estão dentro delas são as 
+filhas e as que sobreõem elas são as PAI do ponto de vista dela, 
+EX: 
+a tag "<html></html> é PAI das tags "<head></head> e <body></body,
+a tag "<ul></ul>" é PAI da tag "<li></li>
+a tag "<title></title>" é FILHA da tag "<head></head>"]
+
+<<Fim da Aula>>
+
+
+[Nome dos Itens:]
+<h1 style="color: white">Título</h1>
+h1: é a tag
+Style: é o atributo 
+color: é a propriedade 
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: Paragráfos
+
+4- Tag: <p>x</p> [Tem como finalidade criar um paragráfo com 
+delimitação de onde é o começo e fim do próprio paragráfo (gerando
+um espaçamento de uma linha entre os textos]
+
+*5- Tag: <br/> [Ela não possui uma chave de abertura, apenas de 
+fechamento, usa-se ao final do texto para criar um novo paragráfo
+sem precisar delimitar o seu início, apenas é necessário posiciona-lo
+onde será feito a "quebra de linha" (pode ser utilizado dentro da tag
+"<p>x</p>") (não gera um espaçamento de uma linha entre os textos)]
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula:  Título
+
+6- Tags: 
+<h1>x</h1>
+<h2>x</h2>
+<h3>x</h3>
+<h4>x</h4>
+<h5>x</h5>
+<h6>x</h6>
+
+[Geram títulos para o seu texto, sendo a "h1" o maior de todos e a 
+"h6" o menor]
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: Centralização e quebra de linha
+
+7- Tag: <center>x</center> [Serve para centralizar o texto que estiver 
+dentro da sua tag]
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: Listas
+
+8- Tags: <ul></ul> + <li>x</li> [A junção das duas tags criam uma 
+lista NÃO ORDENADA (marcando os itens da lista com um PONTO PRETO),
+as tags são utilizadas desta seguinte forma:
+<ul>
+	<li>Item 1</li>
+	<li>Item 2</li>
+	<li>Item 3</li>
+</ul>]
+
+9- Tags: <ol></ol> + <li>x</li> [A junção das duas tags criam uma 
+lista ORDENADA (marcando os itens da lista com uma NUMERAÇÂO ORDENADA),
+as tags são utilizadas desta seguinte forma:
+<ol>
+	<li>Item 1</li>
+	<li>Item 2</li>
+	<li>Item 3</li>
+</ol>]
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: Tabelas
+
+10- Tags: <table></table> + <tr></tr> + <td>x</tr> [Tag: "<table></table>"
+cria uma tabela, porém as as tags "<tr></tr>" e "<td>x</tr>" irão 
+definir a quantidade de linhas e colunas; Tag: "<tr></tr>" é a 
+responsável pelas LINHAS (ela se localiza dentro da tag "<table></table>"); 
+Tag: "<td>x</tr>" é a responsável pelas COLUNAS (ela se localiza dentro
+da tag "<tr></tr>")
+EX: 
+<table>
+	<tr>
+		<td>Coluna 1</td>
+		<td>Coluna 2</td>
+		<td>Coluna 3</td>
+	</tr>
+</table>
+
+11- ***Atributos [Atributos HTML são palavras especiais usadas dentro 
+das TAGS de abertura para controlar o comportamento do elemento. Os 
+atributos HTML são um modificador de um tipo de elemento HTML. Com 
+eles podemos identificar melhor um elemento, informar qual arquivo 
+aquela tag deve utilizar, indicar o tipo de um campo de texto, etc...
+Ex: <table border="1">x</table>]
+
+12- Atributo: border="x" [Tem como finalidade criar bordas para a tag 
+onde foi inserido, ex: <table border="1">x</table>]
+
+13- Tag: <thead></thead> + <th>x</th> [É utilizado para a criação de 
+um cabeçalho, a tag "<thead></thead>" é utilizado dentro da tag 
+<table></table> e a tag <th>x</th> dentro da <thead></thead> e irá 
+aplicar o efeito de negrito, centralizará o texto que estiver dentro
+de sua tag e além disso se adequará a um tamanho condizente com o 
+espaço,  EX: 
+<table>
+	<thead>
+		<th>Cabeçalho 1</th> 
+		<th>Cabeçalho 2</th> 
+		<th>Cabeçalho 3</th> 
+	</thead> 
+</table> 
+
+14- *Tag: <thead></thead> e <tbody></tbody> [São utilizados para indicar
+onde começa o cabeçalho e o corpo da tabela, não possuem uma ação na 
+interpretação do browser, sua finalidade é organizar a página de 
+programação para um melhor entendimeno]
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: Estilização e Cores
+
+15- Atributo: bgcolor="x" [Tem como finalidadde alterar a coloração do 
+plano de fundo do site, sendo compatível apenas (não sei ao certo)
+com a tag "body"]
+
+16- ***Propriedades [Tags HTML podem receber propriedades que modificam 
+seu comportamento/utilização no código. Algumas tags possuem 
+propriedades específicas que só podem ser atribuídas a elas 
+(ou que não têm qualquer efeito sobre outras tags), as propriedades 
+são utilizadas dentro dos atributos que por sua vez estão acompanhadas 
+de uma tag principal]
+
+17- Atributo: style="x" [armazena informações de estilo para um 
+documento ou uma parte do documento (compatível com todas as tags por 
+se tratar de uma atributo "global"), sendo sempre acompanhada de uma 
+propriedade que irá dizer o que ele deverá realizar, 
+ex: 
+<h1 style="background-color: black">Título</h1>: a propriedade 
+está definindo que ele deve alterar a cor de fundo do texto;
+<h1 style="color: white">Título</h1>: já está propriedade diz que 
+ele deve alterar a cor da fonte do texto de originalmente preto para 
+branco;
+etc...]
+
+18- **; dentro das PROPRIEDADES [É utilizados para separar as 
+propriedades dentro dos atributos e assim possibilitando a utilização
+de duas ou mais propriedades dentro de um mesmo atributo]
+
+19- Propriedade: font-size [Possui a função de determinar o tamanho 
+da fonte, ex: <body stlye="font-size: 72x"></body>]
+
+20- *10px [px é a abreviação de pixel, 10px indica o tamanho do item 
+que o segue, quanto maior o número maior será o item e o mesmo vale para 
+o oposto]
+
+21- *A formatação instruida para a tag pai será automáticamente instruida
+a tag filha também, caso não ela não possua uma formatação própria
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: Links
+
+22- Tag: <a>x</a> +  Atributo: href="x" [A tag "<a>x</a>" é responsável 
+por nomear o link, já o atributo href="x" é onde vai se localizar o 
+link que fará o redirecionamento do site, 
+ex: <a href="https://axieinfinity.com/?__cf_chl_captcha_tk__=pmd_9
+5316eee49a84068cbbbb4a772af6fe95524e1ed-1630282296-0-gqNtZGzNAuKjcn
+BszQe6">Axie Infinity</a> 
+
+23- Atributo: target="x" + Propriedade:_blank [Juntos eles realizam 
+a função de possibilitar que quando o cliente clicar em um link ele 
+seja redirecionado em uma nova guia, com isso permanecendo a guia 
+original aberta,
+Ex: <a href="http://www.scholofnet.com" target="_black">Site Net</a>
+
+24- *Cor do link [Caso o link esteja com um tom azul claro quer dizer 
+que você nunca acessou aquele link, caso esteja roxo escuro é porque 
+você ja visitou aquele link]
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: Navegação
+
+25-* ./ [ponto e barra em um link no atributo "href="x" é utilizado 
+para gerar um endereço relativo para faciliar o acesso de terceiros a 
+nossa página, do contrario ele se torna um link absoluto (funcional 
+apenas quando as páginas de programação estão na mesma pasta]
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: Imagens
+
+26- *Elemento é igual a tag
+
+27- Tag: <img/> + Atributo: src="x" + link da imagem [Juntos 
+possibilitam a adição de imagens em seu página, o link da imagem 
+deverá ser inserido dentro do atributo scr="x", enquanto o atributo 
+deverá estar dentro da tag <img/>,
+EX: <img src="https://sonassets.s3.amazonaws.com/img/logo-top.png"/>
+
+28- Tag: <img/> + Atributo: src="x" + ./img/ [Juntos também 
+possibilitam a adição de imagens em seu página, porém as imagens serão
+puxadas da sua máquina. Para utiliza-la você deverá adicionar a 
+propriedade ./img/ dentro do atributo src="x" para assim criar uma um 
+endereço relativo, após ./img/ deverá adicionar o nome do arquivo da 
+sua imagem (É PRECISO QUE A IMAGEM ESTEJA NA MESMA PASTA DO CÓDIGO DE
+PROGRAMAÇÃO, caso o contrario não funcionará, também é preciso adicionar
+o tipo da imagem, ex: png, jpg, etc...), 
+EX: <img src="./img/over2.png"/>]
+
+29- Atributo: Width="x" [Ela é responsável por determinar a LARGURA
+para a tag que foi determinada, 
+EX: <EX: <img src="./img/over2.png" width="300"/>]
+
+30- Atributo: height="x" [Ela é responsável por determinar a ALTURA 
+para a tag que foi determinada, 
+EX: <EX: <img src="./img/over2.png" height="100"/>]
+
+31- *Imagem com link [Caso queira criar uma imagem com link imbutido 
+é preciso apenas adicionar a tag "<img/>" dentro da tag "<a></a>, EX:
+<a href="https://translate.google.com.br/">
+<img src="./img/over2.png" height="100"/>
+</a>
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: Formulários
+
+32- Tag: <form></form> [É utilzado quando vai se iniciar a programação 
+de um formulário, está tag não possue impacto direto na recepção do 
+client/browser]
+
+33- Tag: <input/> [Ela cria diferentes campos de entrada de dados no
+documento dependendo do atributo que acompanha-la. No geral, ela deve 
+ser usada dentro da tag <form></form>]
+
+34- Atributo: type="x" + Suas propriedades [Type é o atributo mais importate da tag 
+<input/>, pois ele definará o seu tipo,
+EX de suas propriedades:
+*Text: ele irá criar uma caixa de texto
+*time: Irá criar um relógio
+*Week: dia da semana 
+*Month: mês e ano 
+*Email: caixa de email
+*Password: senha
+*Hidden: campo oculto
+*image: enviar uma imagem
+*SUBMIT: botão para o envio de dados 
+*BUTTON: cria um botão (não sei a diferença entre ele e o submit)
+*checkbox: cria um caixa selecionavel sem restrição, podendo selecionar
+*qunatas caixas desejar
+*radio: cria um caixa selecionavel com restrição, podendo selecionar
+apenas uma caixa, caso seja combinado com a propriedade "name" e possuam
+o mesmo nome na propriedade
+*name: Possibilita a criação de um nome para a tag, assim podendo 
+distingui-las entre si 
+
+EX de uso: 
+<input type="text"/>
+<input type="week"/>
+<input type="email"/>]
+
+35- Tag: <label></label> [É a tag utilizada para informar que tipo é 
+aquele campo, muito utilizada ao lado da tag <input/> para poder dizer 
+ao cliente o que é aquela caixa de texto, quando se utilizada com a 
+propriedade "text", 
+EX:
+<form>
+<label>Nome</label>
+<input type="text"/>
+</form>]
+
+36- Tag: <select></select> + <option>x</option> [Juntos criam uma 
+caixa de seleção, 
+EX:
+<select>
+	<option>Banana</option> 
+	<option>Maçã</option> 
+	<option>Pêra</option> 
+</select> 
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Aula: Formulário de pesquisa no Google
+
+37- Atributo: action"x" [Define o local (o local deve ser uma URL) em 
+que os dados recolhidos do formulário devem ser enviados,
+EX: <form action="https://translate.google.com.br/">x</form>
+
+38- Atributo: value"x" [Atribui um nome para a sua tag, esse nome será 
+exibido ao cliente/browser, com isso podendo definir o que você quer que 
+apareça escrito em um botão,
+EX: <input type="submit" value="Enviar"/>
+
+<<Fim da Aula>>
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+► Conteúdo Extra!
+
+39- Tag: abbr [Ela basicamente cria uma etiqueta para uma palavra 
+Ex: <abbr title+"carro é um veículo de transporte">carro</abbr>
+]
+
+40- Tag: picture [O elemento HTML <picture> é um container usado para 
+especificar múltiplos elementos <source> para um elemento específico <img> contido nele
+Ex: <picture>
+            <source media="(max-width: 750px)" srcset="./img/foto-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="./img/foto-m.png" type="image/png">
+            <img src="./img/foto-g.png" alt="">
+        </picture>
+OBS: a ordem é extremamente importante, o img sempre portará amaior imagem, enquanto os 
+source acima sempre terá uma imagem menor, o mesmo vale apra o source em cima dele 
+]
+
+41- Tag: audio [Serve apra criar um player de audio, ele deve ser acompanhada da propriedade 
+controls 
+EX:<audio src="./audio/Better - Anno Domini Beats.mp3" controls></audio>
+OBS: para criar um player de audio com mais de um tipo é assim que se faz:
+<audio preload="metadata" controls autoplay loop>
+        <source src="./audio/Better - Anno Domini Beats.mp3" type="audio/mpeg">
+        <source src="./audio/Better - Anno Domini Beats.ogg" type="audio/ogg">
+        <source src="./audio/Better - Anno Domini Beats.wav" type="audio/wav">
+    </audio>
+O tipo wav nuca deve ser usado pois é muito pesado para os navegadores
+]
+
+42- Como usar um video do youtube no seu site 
+[Basta você ir no youtube selecionar a opção "Compartilhar" e escolher a opão incorporar, depois basta 
+copiar os dados e colar no VS]
